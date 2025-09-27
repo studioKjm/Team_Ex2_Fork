@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>협업 웹페이지 실습</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <h1>협업 웹페이지 실습</h1>
+      <p class="subtitle">Fork → Branch → PR → Merge → Final PR</p>
+    </header>
+
+    <section class="content">
+      <article class="card">
+        <h2>게시글 제목</h2>
+        <p>팀원1은 UI와 <strong>싫어요(JS)</strong>, 팀원2는 <strong>알림/좋아요(JS)</strong>를 담당합니다.</p>
+
+        <div class="actions">
+          <div class="like">
+            <button id="like-btn" type="button">👍 좋아요</button>
+            <span id="like-count" class="count" data-count="0">0</span>
+          </div>
+
+          <div class="dislike">
+            <button id="dislike-btn" type="button">👎 싫어요</button>
+            <span id="dislike-count" class="count" data-count="0">0</span>
+          </div>
+
+          <button id="alert-btn" type="button">알림 띄우기</button>
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">© 2025 Collaboration Demo</footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

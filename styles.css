@@ -1,0 +1,12 @@
+:root { --bg:#f7f7fa; --card:#fff; --text:#1f2937; --muted:#6b7280; --border:#e5e7eb; }
+*{ box-sizing:border-box; }
+body{ margin:0; font-family:system-ui,Segoe UI,Roboto,Apple Color Emoji; background:var(--bg); color:var(--text); }
+.container{ max-width:860px; margin:40px auto; padding:0 16px; }
+.hero{ margin-bottom:16px; }
+.subtitle{ color:var(--muted); }
+.card{ background:var(--card); border:1px solid var(--border); border-radius:14px; padding:16px; box-shadow:0 6px 20px rgba(0,0,0,.06); }
+.actions{ display:flex; gap:12px; align-items:center; margin-top:12px; flex-wrap:wrap; }
+.like,.dislike{ display:inline-flex; align-items:center; gap:10px; }
+#like-btn,#dislike-btn,#alert-btn{ padding:10px 14px; border:1px solid var(--border); background:#fff; border-radius:999px; cursor:pointer; }
+.count{ min-width:2ch; font-variant-numeric:tabular-nums; color:var(--muted); }
+.footer{ margin-top:20px; color:var(--muted); font-size:14px; text-align:center; }
