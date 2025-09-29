@@ -1,4 +1,4 @@
-// 팀원2: 알림 + 좋아요 기능
+// 팀원2: 알림 + 좋아요 기능.
 function initLikeAndAlert() {
   const alertBtn = document.getElementById('alert-btn');
   if (alertBtn) {
